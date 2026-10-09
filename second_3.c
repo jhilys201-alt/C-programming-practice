@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
     int a, b;
     int result;
@@ -49,4 +49,6 @@ void main()
             printf("0으로 나누면 안됩니다.");
         }
     }
+
+    return 0;
 }
