@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
     float a, b;
     float result;
@@ -25,4 +25,6 @@ void main()
 
     result = (int)a % (int)b;
     printf("%d %% %d = %d\n", (int)a, (int)b, (int)result);
+
+    return 0;
 }
